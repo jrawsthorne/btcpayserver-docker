@@ -5,6 +5,7 @@ services:
   btcpayserver:
     restart: unless-stopped
     image: jrawsthorne/btcpayserver:latest
+    image: nicolasdorier/btcpayserver:1.0.2.109
     expose:
       - "49392"
     environment:
